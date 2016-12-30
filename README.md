@@ -6,4 +6,6 @@ Lottery_649_Parser.java
 
 需求的 Jar files 如下
 * jsoup-1.10.1.jar 
-* json-simple-1.1.1
+* json-simple-1.1.1.jar
+
+### 執行方式
