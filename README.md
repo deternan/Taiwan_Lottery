@@ -1,4 +1,4 @@
-#台灣彩卷
+# 台灣彩卷
 
 ## 
 擷取當期台灣彩券各遊戲開獎號碼 "大樂透" 號碼, 中獎柱數 以及獎金
@@ -18,5 +18,5 @@ java -jar jsoup-1.10.1.jar:json-simple-1.1.1.jar Latest_Lotto649_Parser
 * jsoup-1.10.1.jar 
 * json-simple-1.1.1.jar
 
-### Updated
+#### Updated
 July 30, 2017 01:28 AM GMT+8
