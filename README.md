@@ -18,5 +18,11 @@ java -jar jsoup-1.10.1.jar:json-simple-1.1.1.jar Latest_Lotto649_Parser
 * jsoup-1.10.1.jar 
 * json-simple-1.1.1.jar
 
+---
+
+Number source <br>
+[https://en.lottolyzer.com/home/taiwan/lotto-649](https://en.lottolyzer.com/home/taiwan/lotto-649)
+
+
 #### Updated
-July 30, 2017 01:28 AM GMT+8
+February 13, 2019 00:39 AM
