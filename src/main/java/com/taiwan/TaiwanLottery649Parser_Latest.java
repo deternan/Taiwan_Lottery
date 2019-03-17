@@ -1,9 +1,7 @@
 package com.taiwan;
 
-import java.io.IOException;
-
 /*
- * Jsoup Prser
+ * Taiwan Lottery 649 parser (latest)
  * 
  * version: March 11, 2019 10:01 PM
  * Last revision: March 17, 2019 12:10 PM
@@ -20,23 +18,15 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-public class jsopParser {
+public class TaiwanLottery649Parser_Latest {
 
 	String pageURL = "https://en.lottolyzer.com/home/taiwan/lotto-649";
 	
-	public jsopParser() throws Exception {
+	public TaiwanLottery649Parser_Latest() throws Exception {
 		
-		Prser_649();
-		
-        
-	}
-	
-	private void Prser_649() throws Exception{
-		
-        // get Num
+		// get latest num
 		getBallNum();
-        
-        
+		
 	}
 	
 	private void getBallNum() throws Exception
@@ -60,7 +50,7 @@ public class jsopParser {
 	
 	public static void main(String[] args) {
 		try {
-			jsopParser jp = new jsopParser();
+			TaiwanLottery649Parser_Latest jp = new TaiwanLottery649Parser_Latest();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
