@@ -6,10 +6,20 @@
   
   <dependencies>
     <dependency>
-    <groupId>org.jsoup</groupId>
-    <artifactId>jsoup</artifactId>
-    <version>1.9.2</version>
-</dependency>
+    	<groupId>org.jsoup</groupId>
+    	<artifactId>jsoup</artifactId>
+    	<version>1.9.2</version>
+	</dependency>
+	<dependency>
+   		<groupId>org.json</groupId>
+    	<artifactId>json</artifactId>
+    	<version>20180813</version>
+	</dependency>
+    <dependency>
+    	<groupId>org.mongodb</groupId>
+    	<artifactId>mongo-java-driver</artifactId>
+   	 	<version>3.10.1</version>
+	</dependency>
     
   </dependencies>
   
